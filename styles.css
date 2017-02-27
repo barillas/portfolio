@@ -1,0 +1,38 @@
+body {
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
+}
+
+h1, h2, h3 {
+    padding-top: 10px;
+    padding-bottom: 4px;
+}
+
+.container-fluid {
+  overflow-x: hidden;
+}
+
+.name {
+    font-size: 32px;
+}
+
+.slogan {
+    font-size: 15px;
+}
+
+.header-image {
+    height: 40%
+}
+
+.slogan {
+    font-size: 18px;
+}
+
+.project {
+    max-height: 300px;
+}
+
+@media (max-width: 600px)  {
+.header-image {
+  width: 100% ;
+}
